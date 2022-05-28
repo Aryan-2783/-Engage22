@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.automobileapplication.MainActivity2">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/action_components"
+        android:orderInCategory="100"
+        android:title="Most Popular Specs" />
+    <item
+        android:id="@+id/action_segmentation"
+        android:orderInCategory="100"
+        android:title="Customer Segmentation" />
+    <item
+        android:id="@+id/action_dailyusage"
+        android:orderInCategory="100"
+        android:title="Daily usage preferred car" />
+    <item
+        android:id="@+id/action_"
+        android:orderInCategory="100"
+        android:title="Current Best Car" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Exit" />
+</menu>
